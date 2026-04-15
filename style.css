@@ -1,0 +1,104 @@
+*{
+    text-decoration: none;
+    font-family: sen;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.2), rgba(0, 0, 255, 0.2)), url(jakub-zerdzicki-2DkNX2wVVY4-unsplash.jpg);  
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    backdrop-filter: blur(5px);
+}
+
+.navbar{
+    padding: 20px;
+    backdrop-filter: blur(5px);
+    background-color: #ffffff33;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.navdiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(to right, red, cyan);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2rem;
+    margin: 0 20px;
+    font-weight: bold;
+    font-family: kumbh sans-serif;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu__keys li{
+    display: inline-flex;
+    margin: 10px;
+    color: #fff;
+    font-weight: bold;
+    transition: .4s ease-in-out all;
+}
+
+.menu__keys li:hover{
+    color: rgb(111, 0, 255);
+}
+
+.menu__btn button{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 10px;
+    background-color: rgb(89, 0, 255);
+    color: #fff;
+    font-weight: bold;
+    transition: .4s ease-in-out all;
+    cursor: pointer;
+}
+
+.menu__btn button:hover{
+    background-color: rgba(89, 0, 255, 0.7);
+    transform: translateY(-5px);
+}
+/* Content Section */
+/* Welcome */
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.welcome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff33;
+    border-radius: 15px;
+    padding: 20px;
+    backdrop-filter: blur(5px);
+    height: 250px;
+    width: 1000px;
+    font-family: kumbh sans;
+}
+
+.welcome h1{
+    font-size: 3rem;
+    display: flex;
+}
