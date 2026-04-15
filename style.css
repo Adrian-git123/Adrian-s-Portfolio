@@ -103,3 +103,7 @@ body{
     font-size: 3rem;
     display: flex;
 }
+
+.about h1{
+    color: cyan;
+}
