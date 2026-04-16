@@ -105,6 +105,20 @@ body{
     display: flex;
 }
 
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff33;
+    border-radius: 15px;
+    padding: 20px;
+    backdrop-filter: blur(5px);
+    height: 250px;
+    width: 1000px;
+    font-family: kumbh sans;
+}
+
 .about h1{
     color: cyan;
 }
